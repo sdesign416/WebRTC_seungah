@@ -1,4 +1,3 @@
 # WebRTC-users
 
 - seungah
-- seojin
