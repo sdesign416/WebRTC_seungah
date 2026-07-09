@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
+    <main>
         <h2>로그인</h2>
         <form id="loginForm">
-            <div>
+            <div class="inputBox">
                 <input type="text" name="userid" id="userid" placeholder="아이디를 입력하세요" maxlength="20">
             </div>
-            <div>
+            <div class="inputBox">
                 <input type="password" name="userpw" id="userpw" placeholder="비밀번호를 입력하세요" maxlength="20">
             </div>
-            <div>
-                <!--회원가입페이지 작성 완료 후 연결-->
-                <button type="button" onclick="location.href = 'signup.html'">회원가입하러가기</button>
-                <button type="submit">로그인</button>
+            
+            <button type="submit" class="submitBtn">로그인</button>
+
+            <div class="linkBox">
+                <span>아직 계정이 없으신가요?</span>
+                <a href="./signup.html">회원가입</a>
             </div>
         </form>
-    </div>
+    </main>
     <script src="./js/login.js"></script>
 </body>
 </html>
