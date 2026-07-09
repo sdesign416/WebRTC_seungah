@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+</head>
+<body>
+    <div>
+        <h2>로그인</h2>
+        <form id="loginForm">
+            <div>
+                <input type="text" name="userid" id="userid" placeholder="아이디를 입력하세요" maxlength="20">
+            </div>
+            <div>
+                <input type="password" name="userpw" id="userpw" placeholder="비밀번호를 입력하세요" maxlength="20">
+            </div>
+            <div>
+                <!--회원가입페이지 작성 완료 후 연결-->
+                <button type="button" onclick="location.href = 'signup.html'">회원가입하러가기</button>
+                <button type="submit">로그인</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
